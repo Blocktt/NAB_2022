@@ -11,17 +11,19 @@
 
 # Load files for individual screens
 
-tab_Intro <- source("external/tab_Intro", local = TRUE)$value
+tab_Intro <- source("external/tab_Intro.R", local = TRUE)$value
 tab_Presentation <- source("external/tab_Presentation.R", local = TRUE)$value
+tab_ProjSum <- source("external/tab_ProjSum.R", local = TRUE)$value
 tab_DataViz <- source("external/tab_DataViz.R", local = TRUE)$value
 tab_Extras <- source("external/tab_Extras.R", local = TRUE)$value
 
 # Define UI
-shinyUI(navbarPage(theme = shinytheme("cerulean")
+shinyUI(navbarPage(theme = shinytheme("flatly")
                    ,"R Shiny & R Markdown: The Death of MS Word"
                    ,tab_Intro()
                    ,tab_Presentation()
+                   ,tab_ProjSum()
                    ,tab_DataViz()
                    ,tab_Extras()
-)## navbarPage~END
+      )## navbarPage~END
 )## shinyUI~END

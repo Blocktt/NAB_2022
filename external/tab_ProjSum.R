@@ -1,5 +1,5 @@
 function(){
-  tabPanel("Presentation",
+  tabPanel("Project Summary",
            # SideBar
            sidebarLayout(
              sidebarPanel(
