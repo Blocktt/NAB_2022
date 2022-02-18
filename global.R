@@ -4,8 +4,7 @@
 
 library(shiny)
 library(ggplot2)
-library(readxl)
-library(reshape2)
+# library(reshape2)
 library(dplyr)
 library(utils)
 library(knitr)
@@ -14,8 +13,8 @@ library(rmarkdown)
 library(markdown)
 library(tidyr)
 library(leaflet)
-library(shinyjs) # used for download button enable
-library(stringr)
+# library(shinyjs) # used for download button enable
+# library(stringr)
 library(shinythemes)
 
 #### GIS/Map data ####

@@ -6,7 +6,9 @@ function(){
 
              )##sidebarPanel~END
              , mainPanel(
-
+               
+               tags$iframe(style="height:400px; width:100%; scrolling=yes", 
+                           src="test.pdf")
              
              )##mainPanel~END
 

@@ -13,7 +13,18 @@
 # df_strs_respon <-read.csv("Data/NH_Strs_Resp_Data_20220218.csv")
 
 server <- function(input, output, session) {
+  
+  
+  # Presentation ####
 
+  getPageDoc <- function() {
+    return(includeHTML("www/gesrmarkdown.html"))
+  }
+  output$doc <- renderUI({
+    getPageDoc()
+  })
+  
+  
   # StoryMaps ####
   
   ## Technical ####

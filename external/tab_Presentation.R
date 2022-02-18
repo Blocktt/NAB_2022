@@ -6,8 +6,7 @@ function(){
 
              )##sidebarPanel~END
              , mainPanel(
-
-             
+               htmlOutput("doc")
              )##mainPanel~END
 
            )##sidebarLayout~END
