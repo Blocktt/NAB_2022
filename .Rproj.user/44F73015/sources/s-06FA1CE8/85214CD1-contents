@@ -14,9 +14,9 @@ library(shinythemes)
 library(rgdal)
 
 #### GIS/Map data ####
-# 
-# dir_data <- file.path(".","GIS_Data")
-# 
-# ## Illinois 2021 Bug IBI Site Classes
-# IL_BugClasses <- rgdal::readOGR(file.path(dir_data, "IEPA_SiteClasses.shp"))
+
+dir_data <- file.path(".","GIS_Data")
+
+## Illinois 2021 Bug IBI Site Classes
+IL_BugClasses <- rgdal::readOGR(file.path(dir_data, "IEPA_SiteClasses.shp"))
 
