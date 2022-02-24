@@ -70,9 +70,8 @@ server <- function(input, output, session) {
                                                 ,"MidStrs"
                                                 ,"HighStrs"))
     
-    
     pal <- colorFactor(
-      palette = c('green', 'orange', 'red'),
+      palette = c('#2c7bb6', '#fdae61', '#d7191c'),
       domain = DistCatPal,
       ordered = TRUE)
 
@@ -92,12 +91,13 @@ server <- function(input, output, session) {
       #             
       # ) %>%
       addCircleMarkers(data = df_data4Map, lat = ~Latitude, lng = ~Longitude
-                       , group = "North", popup = paste("BenSampID: ", df_data4Map$BenSampID
-                                                        ,"CollDate:", df_data4Map$CollDate
-                                                        ,"Station_ID:", df_data4Map$Station_ID
+                       , group = "North", popup = paste("BenSampID: ", df_data4Map$BenSampID, "<br>"
+                                                        ,"CollDate:", df_data4Map$CollDate, "<br>"
+                                                        ,"Station_ID:", df_data4Map$Station_ID, "<br>"
                                                         ,"IBI_Score:", df_data4Map$IBI_Score)
                        , color = "black", fillColor = ~pal(DistCat), fillOpacity = 1, stroke = TRUE
-                       , clusterOptions = markerClusterOptions()
+                       , radius = 6, weight = 3
+                       # , clusterOptions = markerClusterOptions()
                        
       ) %>%
       addLegend(pal = pal,
