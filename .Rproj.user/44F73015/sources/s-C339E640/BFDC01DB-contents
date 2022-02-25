@@ -115,7 +115,7 @@ server <- function(input, output, session) {
   # Presentation ####
 
   getPageDoc <- function() {
-    return(includeHTML("www/gesrmarkdown.html"))
+    return(includeHTML("www/App_Presentation.html"))
   }
   output$doc <- renderUI({
     getPageDoc()

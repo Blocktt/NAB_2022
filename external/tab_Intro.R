@@ -1,17 +1,17 @@
 function(){
   tabPanel("Introduction",
-           sidebarLayout(
-             sidebarPanel(
-               # img(src = "IEPA_logo.png", height = 100)
-               # , width = 3
-             )# sidebarPanel~END
-             , mainPanel(
-               # includeHTML("www/App_Background.html")
-               # , img(src = "IL_Lakes_IBIClasses.png", height = 600)
-               # , width = 7
-             )# mainPanel~END
-           )# sidebarLayout~END
-  ) # tabPanel~END
-}# FUNCTION~END
-
-
+           fluidPage(
+             h1("RShiny and RMarkdown:", align = "center")
+             , h1(paste("Solutions to static"
+                        ,"reporting methods and perhaps the death of MS Word")
+                  , align = "center")
+             , br()
+             , h2("Benjamin D. Block", align = "center")
+             , h2("Aquatic Ecologist, Tetra Tech, Inc.", align = "center")
+             # , img(src = "NYTimes_Dashboard.png", height = 600)
+             #https://stackoverflow.com/questions/34663099/how-to-center-an-image-in-a-shiny-app
+             , HTML('<center><img src = "Intro.jpg"></center>')
+             , width = 7
+           ) #fluidPage ~ END
+  )## tabPanel~END
+}##FUNCTION~END
