@@ -19,28 +19,29 @@ output:
 knitr::opts_chunk$set(warning=FALSE)
 ```
 
+<img src="PrezPhotos/Logo_Tt.png" width="50%"/>
+
 # Content 
 
 1. Engaging constituents is important
 2. Documents need to be digestible
 3. Many orgs use science communication tools
 4. User design should be considered
-    <!-- + Main Libraries -->
 5. R Shiny can achieve these goals
 6. Case study: This app!
 7. Other considerations
 8. Conclusions
 9. References and Resources
-
+10. Acknowledgments
 
 ## 1. Engaging constituents is important
 
 >Informed and Involved Public Goal: Basin residents and visitors will understand and appreciate Lake Champlain Basin resources, and will possess a sense of personal responsibility that results in behavioral changes and actions to reduce pollution. ~ Lake Champlain Basin Program Opportunities for Action.
 
-* <font size= "5">Ensure residents and visitors understand and appreciate natural resources</font>
-* <font size= "5">Encourage a sense of personal responsibility and stewardship</font>
-* <font size= "5">Inform civic leaders and policy makers on important issues</font>
-* <font size= "5">Improve communication, science literacy, equity, and inclusion</font>
+* <font size= "5">Ensure constituents understand and appreciate natural resources</font>
+* <font size= "5">Encourage personal responsibility and stewardship</font>
+* <font size= "5">Inform policy makers on important issues</font>
+* <font size= "5">Improve science literacy, equity, and inclusion</font>
 
 &nbsp;
 &nbsp;
@@ -74,7 +75,7 @@ table1 %>%
 
 &nbsp;
 
-* <font size= "5">[CT DEEP 2020 IWQR Factsheet](https://portal.ct.gov/-/media/DEEP/water/water_quality_management/305b/2020/IWQR2020Factsheet.pdf) is great! Could be dynamic!</font>
+* <font size= "5">[CT DEEP 2020 IWQR Factsheet](https://portal.ct.gov/-/media/DEEP/water/water_quality_management/305b/2020/IWQR2020Factsheet.pdf) is great!</font>
 
 <img src="PrezPhotos/CTDeep_FactSheet.png" width="100%"/>
 
@@ -87,7 +88,6 @@ table1 %>%
 ## 3. Many orgs use science communication tools
 
 * <font size= "5">Puts information at the fingertips of stakeholders, public, and policy makers</font>
-* <font size= "5">Examples include John Hopkins and NY Times COVID-19 resources</font>
 
 <img src="PrezPhotos/Interactive.png" width="100%"/>
 
@@ -98,13 +98,14 @@ table1 %>%
 
 ## 4. User design should be considered
 
-* <font size= "5">Content should be considered</font>
+* <font size= "5">Content is important; use a message box</font>
 
 <img src="PrezPhotos/MessageBox.png" width="100%"/>
 
-* <font size= "5">But content must also be effectively delivered</font>
+* <font size= "5">But also consider effective delivery</font>
 
 <img src="PrezPhotos/UserDesign.png" width="100%"/>
+Figure adapted from Lauer, C. 2019.
 
 &nbsp;
 &nbsp;
@@ -114,17 +115,13 @@ table1 %>%
 ## 5. R Shiny can achieve these goals
 
 * <font size= "5">R Shiny is a framework for creating web apps using R code</font>
-* <font size= "5">Does not require knowledge of HTML, CSS, or JavaScript</font>
 * <font size= "5">Every Shiny app is maintained by a computer or server running R</font>
+* <font size= "5">Does not require knowledge of HTML, CSS, or JavaScript</font>
+   + <font size= "5">Simple option to use styling options include shinythemes and bslib packages</font>
 
 <img src="PrezPhotos/RServer.png" width="100%"/>
 
-* <font size= "5">Can range from ultra-basic to completely customized</font>
-   + <font size= "5">https://shiny.rstudio.com/gallery/</font>
-   + <font size= "5">Simple option to use styling options include shinythemes and bslib packages</font>
-* <font size= "5">Can be enhanced by CSS and HTML coding experience</font>
-* <font size= "5">Hosted on shinyapps.io – accessible by anyone with internet connection</font>
-   + <font size= "5">Free or reasonably priced</font>
+* <font size= "5">Hosted on shinyapps.io</font>
     
 <img src="PrezPhotos/ShinyAppsIO.png" width="100%"/>
 
@@ -142,8 +139,8 @@ table1 %>%
 
 ## 7. Other considerations
 
-* <font size= "5">Options to make data publicly accessible - via GitHub</font>
-* <font size= "5">Hosting R Shiny apps on your website</font>
+* <font size= "5">Publicly available data</font>
+* <font size= "5">Host R Shiny apps on your website</font>
 * <font size= "5">Consider adding other media forms</font>
 * <font size= "5">Share via social media</font>
 * <font size= "5">Tetra Tech has broad experience making technical and non-technical content</font>
@@ -152,8 +149,7 @@ table1 %>%
 * <font size= "5">R Shiny is an excellent platform to create custom interactive outreach materials</font>
 * <font size= "5">Formal documents are well suited for the government but not the public</font>
 * <font size= "5">Science communication should be considered in every project</font>
-    + <font size= "5">Maximize impact by including sci comm in all future projects</font>
-* <font size= "5">**Public outreach should be a priority**</font>
+* <font size= "5">**Public outreach should be a funded priority**</font>
 
 ## 9. References and Resources
 * <font size= "5">Shiny Tutorials (https://shiny.rstudio.com/tutorial/)</font>
@@ -162,5 +158,9 @@ table1 %>%
 * <font size= "5">Markdown Gallery of Ideas (https://rmarkdown.rstudio.com/gallery.html)</font>
 * <font size= "5">Mastering Shiny eBook (https://mastering-shiny.org/)</font>
 * <font size= "5">Datacamp Self-Paced Tutorials (https://datacamp.com)</font>
+* Lauer, C. 2019. Cultivating mindfulness in the user experience of science communication.In SIGDOC '19: The 37th ACM International Conference on the Design of Communication Proceedings, October 04–06,
+2019, Portland, OR, USA.
 
+## 10. Acknowledgments
 <img src="PrezPhotos/Logos.png" width="100%"/>
+This project has been funded wholly or in part by the United States Environmental Protection Agency under assistance agreement (I00199120-106) to NEIWPCC. The contents of this document do not necessarily reflect the views and policies of NEIWPCC or the EPA, nor does NEIWPCC or the EPA endorse trade names or recommend the use of commercial products mentioned in this document.
